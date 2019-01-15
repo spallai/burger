@@ -6,7 +6,7 @@ db.sequelize.sync().then(function(){
     console.log("db synced");
 });
 
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 8080;
 var app = express();
 
 app.use(express.static("public"));
